@@ -3,7 +3,6 @@ CREATE TABLE User (
                       UserName VARCHAR(255) NOT NULL,
                       Email VARCHAR(255) UNIQUE NOT NULL,
                       Password VARCHAR(255) NOT NULL,
-                      Salt VARCHAR(255) NOT NULL,
                       CoverImage VARCHAR(255),
                       Biography TEXT
 );
